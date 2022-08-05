@@ -11,7 +11,7 @@ class Page {
         "data"=>[]
     ];
 
-    public function __construct($opts = array(), $tpl_dir = "/Github/ecommerce/views/","){    
+    public function __construct($opts = array(), $tpl_dir = "/Github/ecommerce/views/"){    
 
         $this->options = array_merge($this->defaults, $opts);
 
